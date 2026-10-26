@@ -1,0 +1,81 @@
+# --- Build output ---
+build/
+bin/
+obj/
+out/
+
+# --- Object files ---
+*.o
+*.ko
+*.obj
+*.elf
+*.d
+
+# --- Precompiled headers ---
+*.gch
+*.pch
+
+# --- Libraries ---
+*.a
+*.la
+*.lo
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# --- Executables ---
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# --- Debug files ---
+*.dSYM/
+*.su
+*.idb
+*.pdb
+core
+core.*
+vgcore.*
+
+# --- Coverage (gcov / lcov) ---
+*.gcno
+*.gcda
+*.gcov
+*.info
+coverage/
+report/
+
+# --- Tooling ---
+compile_commands.json
+.cache/
+.clangd/
+
+# --- Documentation (Doxygen) ---
+html/
+latex/
+
+# --- Distribution archives ---
+*.tar.gz
+*.tgz
+*.zip
+
+# --- Runtime data ---
+highscore.dat
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+
+# --- OS ---
+.DS_Store
+Thumbs.db
